@@ -2,14 +2,6 @@
 
 > **Architecture case study.** Source code is private and owned by the client. This repository contains original documentation only: no client code, data, credentials or assets.
 
-## Problem
-
-Students in Bangladesh applying to UK universities face scattered course information and a slow, manual application process run through counsellors.
-
-## Solution
-
-A searchable catalogue of universities and courses, built through a repeatable data ingestion pipeline, connected to an online application flow and an admin back office.
-
 ## Architecture
 
 ```mermaid
@@ -22,6 +14,14 @@ flowchart LR
   WEB --> MAIL[Transactional email]
   ADM[Admissions team] --> WEB
 ```
+
+## Problem
+
+Students in Bangladesh applying to UK universities face scattered course information and a slow, manual application process run through counsellors.
+
+## Solution
+
+A searchable catalogue of universities and courses, built through a repeatable data ingestion pipeline, connected to an online application flow and an admin back office.
 
 ## Modules
 
